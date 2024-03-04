@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
       - name: redis
-        image: redis:5.0-alpine
+        image: harbor-repo.vmware.com/vac_vmware_it/containers/photon-4/redis:7.2.4-photon-4-r15
         ports:
         - containerPort: 6379
         resources:

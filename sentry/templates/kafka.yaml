@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
       - name: kafka
-        image: confluentinc/cp-kafka:5.1.2
+        image: harbor-repo.vmware.com/vac_vmware_it/containers/photon-4/kafka:3.6.1-photon-4-r27
         ports:
         - containerPort: 9092
         env:
